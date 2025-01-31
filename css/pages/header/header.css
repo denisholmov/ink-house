@@ -1,0 +1,26 @@
+.header{
+    padding: 33px 0 33px 0;
+    background-color: var(--molten-ice);
+}
+
+.header__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo img{
+    width: 100%;
+    height: auto;
+}
+
+.header__menu{
+    display: flex;
+    gap: 60px;
+}
+
+.header__link{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--stretch-limo);
+}

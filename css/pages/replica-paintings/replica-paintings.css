@@ -1,0 +1,18 @@
+.replica-paintings__container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.replica-paintings__bird img{
+    width: 540px;
+    height: auto;
+
+}
+
+.replica-paintings__content{
+    display: flex;
+    flex-direction: column;
+}
+
+
