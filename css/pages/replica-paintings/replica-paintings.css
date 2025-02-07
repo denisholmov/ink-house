@@ -13,6 +13,41 @@
 .replica-paintings__content{
     display: flex;
     flex-direction: column;
+    padding-top: 145px;
+
+
+    font-family: Raleway, sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
 }
 
 
+.replica-paintings__title{
+    margin-bottom: 20px;
+
+   
+    font-size: 60px;
+}
+
+.replica-paintings__title span{
+    color: var(--mudroch);
+}
+
+.replica-paintings__text{
+    margin-bottom: 60px;
+
+    font-size: 18px;
+    color: var(--sandstone-grey-green);
+    line-height: 1.5;
+}
+
+.replica-paintings__btn{
+    padding: 21px 60px;
+
+    font-size: 20px;
+    color: var(--mudroch);
+
+    border: 1px solid var(--mudroch);
+
+    flex: 1 1 227px;
+}
