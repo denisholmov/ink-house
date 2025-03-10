@@ -1,45 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/global/index.css">
-    <link rel="stylesheet" href="./css/pages/index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/global/index.css" />
+    <link rel="stylesheet" href="./css/pages/index.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="wrapper">
-        <header class="header">
-            <div class="header__container">
-                <div class="header__logo">
-                    <img src="./images/header/logo.png" alt="Логотип">
-                </div>
+      <header class="header">
+        <div class="header__container">
+          <div class="header__logo">
+            <img src="./images/header/logo.png" alt="Логотип" />
+          </div>
 
-                <nav class="header__nav">
-                    <ul class="header__menu">
-                        <li class="header__item"><a class="header__link" href="#">Репродукции</a></li>
-                        <li class="header__item"><a class="header__link" href="#">Новинки</a></li>
-                        <li class="header__item"><a class="header__link" href="#">О нас</a></li>
-                        <li class="header__item"><a class="header__link" href="#"><img src="./images/header/cart.svg" alt="Корзина"></a></li>
-                    </ul>
-                </nav>
+          <nav class="header__nav">
+            <ul class="header__menu">
+              <li class="header__item"><a class="header__link" href="#">Репродукции</a></li>
+              <li class="header__item"><a class="header__link" href="#">Новинки</a></li>
+              <li class="header__item"><a class="header__link" href="#">О нас</a></li>
+              <li class="header__item">
+                <a class="header__link" href="#"><img src="./images/header/cart.svg" alt="Корзина" /></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="replica-paintings">
+          <div class="replica-paintings__container">
+            <div class="replica-paintings__bird">
+              <img src="./images/replica-paintings/bird.png" alt="Птица" />
             </div>
-        </header>
+            <div class="replica-paintings__content">
+              <h1 class="replica-paintings__title">Реплики картин от <span>Ink. House</span></h1>
+              <p class="replica-paintings__text">
+                Высокое качество отрисовки на плотной бумаге или льняном холсте. Редкие произведения, доступные цены.
+              </p>
 
-        <main class="main">
-            <section class="replica-paintings">
-                <div class="replica-paintings__container">
-                    <div class="replica-paintings__bird">
-                        <img src="./images/replica-paintings/bird.png" alt="Птица">
-                    </div>
-                    <div class="replica-paintings__content">
-                        <h1 class="replica-paintings__title">Реплики картин от <span>Ink. House</span></h1>
-                        <p class="replica-paintings__text">Высокое качество отрисовки на плотной бумаге или льняном холсте. Редкие произведения, доступные цены.</p>
-                        <button class="replica-paintings__btn">Продукция!!!!!!</button>
-                    </div>
-                </div>
-            </section>
-        </main>
+              <div>
+                <button class="replica-paintings__btn">Продукция!!!!!!</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="reproductions">
+          <div class="reproductions__container">
+            <div class="reproductions__header">
+              <h2 class="reproductions__title">Репродукции</h2>
+              <ul class="reproductions__menu">
+                <li class="reproductions__item"><button class="reproductions__btn">Франция</button></li>
+                <li class="reproductions__item"><button class="reproductions__btn">Германия</button></li>
+                <li class="reproductions__item"><button class="reproductions__btn">Англия</button></li>
+              </ul>
+            </div>
+            <ul class="reproductions__gallery gallery">
+              <li class="gallery__painting">
+                <img class="gallery__image" src="./images/reproductions/painting-1.png" alt="Картина" />
+                <h4 class="gallery__author">Марсель Руссо</h4>
+                <h3 class="gallery__title">Охота Амура</h3>
+                <p class="gallery__characteristic">Холст, масло (50х80)</p>
+                <p class="galerry__price">14 500 руб</p>
+                <button class="gallery__btn">В корзину</button>
+              </li>
+              <li class="gallery__painting">
+                <img class="gallery__image" src="./images/reproductions/painting-2.png" alt="Картина" />
+                <h4 class="gallery__author">Марсель Руссо</h4>
+                <h3 class="gallery__title">Охота Амура</h3>
+                <p class="gallery__characteristic">Холст, масло (50х80)</p>
+                <p class="galerry__price">14 500 руб</p>
+                <button class="gallery__btn">В корзину</button>
+              </li>
+              <li class="gallery__painting">
+                <img class="gallery__image" src="./images/reproductions/painting-3.png" alt="Картина" />
+                <h4 class="gallery__author">Марсель Руссо</h4>
+                <h3 class="gallery__title">Охота Амура</h3>
+                <p class="gallery__characteristic">Холст, масло (50х80)</p>
+                <p class="galerry__price">14 500 руб</p>
+                <button class="gallery__btn">В корзину</button>
+              </li>
+              <li class="gallery__painting">
+                <img class="gallery__image" src="./images/reproductions/painting-4.png" alt="Картина" />
+                <h4 class="gallery__author">Марсель Руссо</h4>
+                <h3 class="gallery__title">Охота Амура</h3>
+                <p class="gallery__characteristic">Холст, масло (50х80)</p>
+                <p class="galerry__price">14 500 руб</p>
+                <button class="gallery__btn">В корзину</button>
+              </li>
+              <li class="gallery__painting">
+                <img class="gallery__image" src="./images/reproductions/painting-5.png" alt="Картина" />
+                <h4 class="gallery__author">Марсель Руссо</h4>
+                <h3 class="gallery__title">Охота Амура</h3>
+                <p class="gallery__characteristic">Холст, масло (50х80)</p>
+                <p class="galerry__price">14 500 руб</p>
+                <button class="gallery__btn">В корзину</button>
+              </li>
+              <li class="gallery__painting">
+                <img class="gallery__image" src="./images/reproductions/painting-6.png" alt="Картина" />
+                <h4 class="gallery__author">Марсель Руссо</h4>
+                <h3 class="gallery__title">Охота Амура</h3>
+                <p class="gallery__characteristic">Холст, масло (50х80)</p>
+                <p class="galerry__price">14 500 руб</p>
+                <button class="gallery__btn">В корзину</button>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
     </div>
-</body>
+  </body>
 </html>
