@@ -47,6 +47,7 @@
     font-size: 20px;
     color: var(--mudroch);
 
+    background-color: var(--white);
     border: 1px solid var(--mudroch);
 
     flex: 1 1 227px;
