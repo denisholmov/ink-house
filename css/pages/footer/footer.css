@@ -1,0 +1,16 @@
+.footer__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.extra-inf{
+    display: flex;
+    justify-content: space-between;
+}
+
+.extra-inf__menu{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 6px;
+}
