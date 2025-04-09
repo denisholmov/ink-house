@@ -1,0 +1,44 @@
+.team__container{
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+    display: flex;
+    gap: 30px;
+}
+
+.team__painting img{
+    max-width: 445px;
+    height: auto;
+}
+
+.team__information{
+    padding-top: 124px;
+    padding-bottom: 44px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    font-family: Roleway, sans-serif;
+    font-weight: 500;
+    color: var(--stretch-limo);
+}
+
+.team__title{
+    font-size: 40px;
+    line-height: 1.1;
+}
+
+.team__text{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.team__list{
+    display: flex;
+    gap: 30px;
+}
+.team__item img{
+    max-width: 80px;
+    height: auto;
+}
