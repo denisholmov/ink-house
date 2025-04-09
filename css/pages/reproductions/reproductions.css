@@ -38,6 +38,21 @@
     color: var(--white-smoke);
 }
 
+.reproductions__btn:hover{
+    background-color: var(--mudroch);
+    color: var(--white);
+}
+
+.reproductions__btn:focus{
+    background-color: var(--splash-down);
+    color: var(--mudroch);
+}
+
+.reproductions__btn:active{
+    background-color: var(--forest-serenade);
+    color: var(--white);
+}
+
 /* gallery------------------------------- */
 
 .gallery{
@@ -95,4 +110,19 @@
     background-color: inherit;
     color: var(--mudroch);
     font-size: 20px;
+}
+
+.gallery__btn:hover{
+    background-color: var(--mudroch);
+    color: var(--white);
+}
+
+.gallery__btn:focus{
+    background-color: var(--splash-down);
+    color: var(--mudroch);
+}
+
+.gallery__btn:active{
+    background-color: var(--forest-serenade);
+    color: var(--white);
 }

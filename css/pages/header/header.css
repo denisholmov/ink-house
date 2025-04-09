@@ -28,4 +28,19 @@
   font-size: 20px;
   font-weight: 500;
   color: var(--stretch-limo);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.header__link:hover{
+  color: var(--mudroch);
+}
+
+.header__link:focus{
+  color: var(--stretch-limo);
+  background-color: var(--splash-down);
+}
+
+.header__link:active{
+  color: var(--forest-serenade);
 }

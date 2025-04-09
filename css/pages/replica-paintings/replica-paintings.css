@@ -52,3 +52,18 @@
 
     flex: 1 1 227px;
 }
+
+.replica-paintings__btn:hover{
+    background-color: var(--mudroch);
+    color: var(--white);
+}
+
+.replica-paintings__btn:focus{
+    background-color: var(--splash-down);
+    color: var(--mudroch);
+}
+
+.replica-paintings__btn:active{
+    background-color: var(--forest-serenade);
+    color: var(--white);
+}
