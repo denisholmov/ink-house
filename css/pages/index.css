@@ -5,3 +5,6 @@
 @import url("./new-collection/new-collection.css");
 @import url("./team/team.css");
 @import url("./footer/footer.css");
+
+@import url('./media/media768.css') (max-width: 768px);
+

@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+    [class*='__container'] {
+        max-width: 690px;
+      }
+
+    /* replica-paintings ==================*/
+
+    .replica-paintings__content{
+        padding-top: 35px;
+    }
+
+    .replica-paintings__bird img{
+        width: 330px;
+    }
+
+    .replica-paintings__title{        
+        font-size: 40px;
+    }
+
+    .replica-paintings__text{
+        margin-bottom: 40px;
+    }
+
+    .replica-paintings__btn{
+        padding: 18px 51px;
+    }
+
+
+}
