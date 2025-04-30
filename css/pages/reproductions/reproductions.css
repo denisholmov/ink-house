@@ -1,128 +1,129 @@
-.reproductions__container{
-    display: flex;
-    flex-direction: column;
+.reproductions__container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 70px;
 }
 
-.reproductions__header{
-    display: flex;
-    justify-content: space-between;
+.reproductions__header {
+  display: flex;
+  justify-content: space-between;
 
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
-.reproductions__title{
-    font-family: Raleway, sans-serif;
-    font-size: 40px;
-    font-weight: 500;
-    color: var(--stretch-limo);
+.reproductions__title {
+  font-family: Raleway, sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  color: var(--stretch-limo);
 }
 
-.reproductions__menu{
-    display: flex;
-    gap: 32px;
+.reproductions__menu {
+  display: flex;
+  gap: 32px;
 }
 
-.reproductions__item{
-    display: flex;
-    align-items: center;
+.reproductions__item {
+  display: flex;
+  align-items: center;
 }
 
-.reproductions__btn{
-    padding: 10px 20px;
-    background-color: var(--forest-serenade);
-    border-radius: 20px;
+.reproductions__btn {
+  padding: 10px 20px;
+  background-color: var(--forest-serenade);
+  border-radius: 20px;
 
-    font-size: 20px;
-    font-family: Raleway, sans-serif;
-    font-weight: 500;
-    color: var(--white-smoke);
+  font-size: 20px;
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  color: var(--white-smoke);
 }
 
-.reproductions__btn:hover{
-    background-color: var(--mudroch);
-    color: var(--white);
+.reproductions__btn:hover {
+  background-color: var(--mudroch);
+  color: var(--white);
 }
 
-.reproductions__btn:focus{
-    background-color: var(--splash-down);
-    color: var(--mudroch);
+.reproductions__btn:focus {
+  background-color: var(--splash-down);
+  color: var(--mudroch);
 }
 
-.reproductions__btn:active{
-    background-color: var(--forest-serenade);
-    color: var(--white);
+.reproductions__btn:active {
+  background-color: var(--forest-serenade);
+  color: var(--white);
 }
 
 /* gallery------------------------------- */
 
-.gallery{
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(3, 1fr);
+.gallery {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 
-    justify-content: center;
-    gap: 30px;
+  justify-content: center;
+  gap: 30px;
 }
 
-.gallery__painting{
-    padding: 20px;
-    background-color: var(--molten-ice);
-    font-family: Raleway, sans-serif;
-    font-weight: 500;
+.gallery__painting {
+  padding: 20px;
+  background-color: var(--molten-ice);
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
 }
 
-.gallery__image{
-    width: 310px;
-    height: auto;
-    margin-bottom: 20px;
+.gallery__image {
+  width: 310px;
+  height: auto;
+  margin-bottom: 20px;
 }
 
-.gallery__author{
-    margin-bottom: 10px;
-    
-    font-size: 18px;
-    color: var(--sandstone-grey-green);
+.gallery__author {
+  margin-bottom: 10px;
+
+  font-size: 18px;
+  color: var(--sandstone-grey-green);
 }
 
-.gallery__title{
-    margin-bottom: 8px;
-    font-size: 30px;
-    color: var(--stretch-limo);
+.gallery__title {
+  margin-bottom: 8px;
+  font-size: 30px;
+  color: var(--stretch-limo);
 }
 
-.gallery__characteristic{
-    margin-bottom: 30px;
-    font-size: 18px;
-    color: var(--stretch-limo);
+.gallery__characteristic {
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: var(--stretch-limo);
 }
 
-.galerry__price{
-    padding-bottom: 20px;
-    font-size: 24px;
-    color: var(--mudroch);
+.galerry__price {
+  padding-bottom: 20px;
+  font-size: 24px;
+  color: var(--mudroch);
 }
 
-.gallery__btn{
-    padding-top: 21px;
-    padding-bottom: 21px;
-    border: 1px solid var(--mudroch);
-    width: 100%;
-    background-color: inherit;
-    color: var(--mudroch);
-    font-size: 20px;
+.gallery__btn {
+  padding-top: 21px;
+  padding-bottom: 21px;
+  border: 1px solid var(--mudroch);
+  width: 100%;
+  background-color: inherit;
+  color: var(--mudroch);
+  font-size: 20px;
 }
 
-.gallery__btn:hover{
-    background-color: var(--mudroch);
-    color: var(--white);
+.gallery__btn:hover {
+  background-color: var(--mudroch);
+  color: var(--white);
 }
 
-.gallery__btn:focus{
-    background-color: var(--splash-down);
-    color: var(--mudroch);
+.gallery__btn:focus {
+  background-color: var(--splash-down);
+  color: var(--mudroch);
 }
 
-.gallery__btn:active{
-    background-color: var(--forest-serenade);
-    color: var(--white);
+.gallery__btn:active {
+  background-color: var(--forest-serenade);
+  color: var(--white);
 }
